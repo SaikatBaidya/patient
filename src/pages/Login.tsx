@@ -46,34 +46,48 @@ const Login = () => {
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                {/* Main koru spiral */}
+                {/* Main koru spiral - outer curve */}
                 <path
                   d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C65 85 78 72 78 57C78 47 71 40 62 40C56 40 52 44 52 50C52 54 54 57 57 57C59 57 60 56 60 54"
                   fill="none"
                   stroke="white"
-                  strokeWidth="4"
+                  strokeWidth="4.5"
                   strokeLinecap="round"
                 />
 
-                {/* Fern fronds - flowing from the spiral */}
+                {/* Fern fronds - curved segments */}
                 <path
-                  d="M30 32C26 30 22 32 20 36C18 40 21 42 25 40C29 38 31 34 30 32"
+                  d="M32 35C28 33 24 35 22 39C20 43 23 45 27 43C31 41 33 37 32 35"
                   fill="white"
                 />
                 <path
-                  d="M25 44C21 42 17 44 15 48C13 52 16 54 20 52C24 50 26 46 25 44"
+                  d="M26 47C22 45 18 47 16 51C14 55 17 57 21 55C25 53 27 49 26 47"
                   fill="white"
                 />
                 <path
-                  d="M23 56C19 54 15 56 13 60C11 64 14 66 18 64C22 62 24 58 23 56"
+                  d="M24 59C20 57 16 59 14 63C12 67 15 69 19 67C23 65 25 61 24 59"
                   fill="white"
                 />
                 <path
-                  d="M27 68C23 66 19 68 17 72C15 76 18 78 22 76C26 74 28 70 27 68"
+                  d="M28 71C24 69 20 71 18 75C16 79 19 81 23 79C27 77 29 73 28 71"
                   fill="white"
                 />
                 <path
-                  d="M32 80C28 78 24 80 22 84C20 88 23 90 27 88C31 86 33 82 32 80"
+                  d="M34 83C30 81 26 83 24 87C22 91 25 93 29 91C33 89 35 85 34 83"
+                  fill="white"
+                />
+
+                {/* Top fronds */}
+                <path
+                  d="M42 25C39 24 36 25 35 27C34 29 36 30 39 29C42 28 43 26 42 25"
+                  fill="white"
+                />
+                <path
+                  d="M38 30C35 29 32 30 31 32C30 34 32 35 35 34C38 33 39 31 38 30"
+                  fill="white"
+                />
+                <path
+                  d="M35 35C32 34 29 35 28 37C27 39 29 40 32 39C35 38 36 36 35 35"
                   fill="white"
                 />
               </svg>
