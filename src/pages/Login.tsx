@@ -43,44 +43,44 @@ const Login = () => {
               <svg
                 viewBox="0 0 100 100"
                 className="w-10 h-10"
-                fill="none"
+                fill="white"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                {/* Main koru spiral */}
                 <path
-                  d="M50 15C35 15 25 25 25 40C25 50 30 58 38 62C42 64 46 65 50 65C54 65 58 64 62 62C70 58 75 50 75 40C75 25 65 15 50 15Z"
+                  d="M50 20C35 20 25 35 25 50C25 65 35 75 50 75C60 75 68 67 68 57C68 52 65 48 60 48C57 48 55 50 55 53C55 54.5 56 55.5 57 55.5C57.5 55.5 58 55 58 54.5"
+                  fill="none"
+                  stroke="white"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                />
+
+                {/* Fern fronds */}
+                <path
+                  d="M35 45C35 45 40 40 45 42C47 43 46 45 44 46C42 47 40 46 40 44"
                   fill="white"
                 />
                 <path
-                  d="M50 20C40 20 32 28 32 38C32 45 36 51 42 54C45 55.5 47.5 56 50 56C52.5 56 55 55.5 58 54C64 51 68 45 68 38C68 28 60 20 50 20Z"
-                  fill="transparent"
-                  stroke="white"
-                  strokeWidth="2"
+                  d="M32 55C32 55 37 50 42 52C44 53 43 55 41 56C39 57 37 56 37 54"
+                  fill="white"
                 />
                 <path
-                  d="M50 25C45 25 40 30 40 36C40 42 45 47 50 47C55 47 60 42 60 36C60 30 55 25 50 25Z"
-                  fill="transparent"
-                  stroke="white"
-                  strokeWidth="1.5"
+                  d="M35 65C35 65 40 60 45 62C47 63 46 65 44 66C42 67 40 66 40 64"
+                  fill="white"
+                />
+
+                {/* Additional small fronds */}
+                <path
+                  d="M28 50C28 50 32 46 36 47C37.5 47.5 37 49 35.5 49.5C34 50 32.5 49.5 32.5 48"
+                  fill="white"
                 />
                 <path
-                  d="M42 45C42 45 45 50 50 52C55 50 58 45 58 45"
-                  fill="transparent"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
+                  d="M30 60C30 60 34 56 38 57C39.5 57.5 39 59 37.5 59.5C36 60 34.5 59.5 34.5 58"
+                  fill="white"
                 />
-                <path
-                  d="M35 50C35 50 40 60 50 65C60 60 65 50 65 50"
-                  fill="transparent"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-                <circle cx="50" cy="35" r="3" fill="white" />
               </svg>
             </div>
           </div>
-
           <div className="space-y-4 mb-6">
             <div>
               <Label
