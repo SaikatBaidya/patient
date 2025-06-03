@@ -48,78 +48,42 @@ const Login = () => {
               >
                 {/* Main koru spiral */}
                 <path
-                  d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C65 85 78 72 78 57C78 47 71 40 62 40C56 40 52 44 52 50C52 54 54 57 57 57C59 57 60 56 60 54"
+                  d="M50 18C32 18 18 32 18 50C18 68 32 82 50 82C63 82 74 71 74 58C74 49 68 42 60 42C55 42 51 46 51 51C51 54 53 56 55 56C56.5 56 57.5 55 57.5 53.5"
                   fill="none"
                   stroke="white"
-                  strokeWidth="3.5"
+                  strokeWidth="4"
                   strokeLinecap="round"
                 />
 
-                {/* Fern fronds - main fronds */}
-                <ellipse
-                  cx="28"
-                  cy="32"
-                  rx="8"
-                  ry="4"
-                  transform="rotate(-30 28 32)"
+                {/* Fern fronds - curved leaf shapes */}
+                <path
+                  d="M30 30C25 28 20 30 18 34C16 38 19 40 24 38C29 36 31 32 30 30Z"
                   fill="white"
                 />
-                <ellipse
-                  cx="22"
-                  cy="45"
-                  rx="9"
-                  ry="4"
-                  transform="rotate(-25 22 45)"
+                <path
+                  d="M25 42C20 40 15 42 13 46C11 50 14 52 19 50C24 48 26 44 25 42Z"
                   fill="white"
                 />
-                <ellipse
-                  cx="20"
-                  cy="58"
-                  rx="10"
-                  ry="4"
-                  transform="rotate(-20 20 58)"
+                <path
+                  d="M23 54C18 52 13 54 11 58C9 62 12 64 17 62C22 60 24 56 23 54Z"
                   fill="white"
                 />
-                <ellipse
-                  cx="26"
-                  cy="71"
-                  rx="9"
-                  ry="4"
-                  transform="rotate(-15 26 71)"
+                <path
+                  d="M27 66C22 64 17 66 15 70C13 74 16 76 21 74C26 72 28 68 27 66Z"
                   fill="white"
                 />
 
-                {/* Smaller accent fronds */}
-                <ellipse
-                  cx="35"
-                  cy="25"
-                  rx="5"
-                  ry="2.5"
-                  transform="rotate(-35 35 25)"
+                {/* Smaller fronds */}
+                <path
+                  d="M35 25C32 24 29 25 28 27C27 29 29 30 32 29C35 28 36 26 35 25Z"
                   fill="white"
                 />
-                <ellipse
-                  cx="16"
-                  cy="38"
-                  rx="6"
-                  ry="2.5"
-                  transform="rotate(-30 16 38)"
+                <path
+                  d="M20 36C17 35 14 36 13 38C12 40 14 41 17 40C20 39 21 37 20 36Z"
                   fill="white"
                 />
-                <ellipse
-                  cx="14"
-                  cy="52"
-                  rx="6"
-                  ry="2.5"
-                  transform="rotate(-25 14 52)"
-                  fill="white"
-                />
-                <ellipse
-                  cx="18"
-                  cy="65"
-                  rx="5"
-                  ry="2.5"
-                  transform="rotate(-20 18 65)"
+                <path
+                  d="M18 48C15 47 12 48 11 50C10 52 12 53 15 52C18 51 19 49 18 48Z"
                   fill="white"
                 />
               </svg>
