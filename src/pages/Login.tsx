@@ -55,71 +55,39 @@ const Login = () => {
                   strokeLinecap="round"
                 />
 
-                {/* Simple fern fronds */}
-                <ellipse
-                  cx="30"
-                  cy="32"
-                  rx="7"
-                  ry="3"
-                  transform="rotate(-25 30 32)"
+                {/* Natural fern fronds with curved shapes */}
+                <path
+                  d="M32 30C28 28 24 30 22 34C20 38 23 40 27 38C31 36 33 32 32 30"
                   fill="white"
                 />
-                <ellipse
-                  cx="25"
-                  cy="44"
-                  rx="8"
-                  ry="3"
-                  transform="rotate(-20 25 44)"
+                <path
+                  d="M26 42C22 40 18 42 16 46C14 50 17 52 21 50C25 48 27 44 26 42"
                   fill="white"
                 />
-                <ellipse
-                  cx="23"
-                  cy="56"
-                  rx="9"
-                  ry="3"
-                  transform="rotate(-15 23 56)"
+                <path
+                  d="M24 54C20 52 16 54 14 58C12 62 15 64 19 62C23 60 25 56 24 54"
                   fill="white"
                 />
-                <ellipse
-                  cx="27"
-                  cy="68"
-                  rx="8"
-                  ry="3"
-                  transform="rotate(-10 27 68)"
+                <path
+                  d="M28 66C24 64 20 66 18 70C16 74 19 76 23 74C27 72 29 68 28 66"
                   fill="white"
                 />
 
-                {/* Small accent fronds */}
-                <ellipse
-                  cx="35"
-                  cy="26"
-                  rx="4"
-                  ry="2"
-                  transform="rotate(-30 35 26)"
+                {/* Smaller fronds */}
+                <path
+                  d="M36 25C34 24 32 25 31 27C30 29 32 30 34 29C36 28 37 26 36 25"
                   fill="white"
                 />
-                <ellipse
-                  cx="20"
-                  cy="38"
-                  rx="5"
-                  ry="2"
-                  transform="rotate(-25 20 38)"
+                <path
+                  d="M21 36C19 35 17 36 16 38C15 40 17 41 19 40C21 39 22 37 21 36"
                   fill="white"
                 />
-                <ellipse
-                  cx="18"
-                  cy="50"
-                  rx="5"
-                  ry="2"
-                  transform="rotate(-20 18 50)"
+                <path
+                  d="M19 48C17 47 15 48 14 50C13 52 15 53 17 52C19 51 20 49 19 48"
                   fill="white"
                 />
-                <ellipse
-                  cx="22"
-                  cy="62"
-                  rx="4"
-                  ry="2"
-                  transform="rotate(-15 22 62)"
+                <path
+                  d="M23 60C21 59 19 60 18 62C17 64 19 65 21 64C23 63 24 61 23 60"
                   fill="white"
                 />
               </svg>
