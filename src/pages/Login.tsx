@@ -46,34 +46,56 @@ const Login = () => {
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                {/* Main koru spiral body */}
+                {/* Main koru spiral */}
                 <path
-                  d="M50 10C25 10 10 25 10 50C10 75 25 90 50 90C70 90 85 75 85 55C85 40 75 30 62 30C52 30 45 37 45 47C45 54 49 60 55 60C59 60 62 57 62 53C62 50.5 60.5 49 59 49"
+                  d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C65 85 78 72 78 57C78 47 71 40 62 40C56 40 52 44 52 50C52 54 54 57 57 57C59 57 60 56 60 54"
                   fill="none"
                   stroke="white"
-                  strokeWidth="5"
+                  strokeWidth="4"
                   strokeLinecap="round"
                 />
 
-                {/* Fern fronds with pointed tops */}
+                {/* Fern fronds - curved segments extending from the spiral */}
                 <path
-                  d="M30 20L25 25C20 30 15 35 12 42C10 47 15 50 22 47C28 44 32 38 35 32L38 25L30 20Z"
+                  d="M32 30C27 28 22 30 20 34C18 38 21 40 26 38C31 36 33 32 32 30"
                   fill="white"
                 />
                 <path
-                  d="M25 35L20 40C15 45 10 50 7 57C5 62 10 65 17 62C23 59 27 53 30 47L33 40L25 35Z"
+                  d="M26 42C21 40 16 42 14 46C12 50 15 52 20 50C25 48 27 44 26 42"
                   fill="white"
                 />
                 <path
-                  d="M22 50L17 55C12 60 7 65 4 72C2 77 7 80 14 77C20 74 24 68 27 62L30 55L22 50Z"
+                  d="M24 54C19 52 14 54 12 58C10 62 13 64 18 62C23 60 25 56 24 54"
                   fill="white"
                 />
                 <path
-                  d="M25 65L20 70C15 75 10 80 7 87C5 92 10 95 17 92C23 89 27 83 30 77L33 70L25 65Z"
+                  d="M28 66C23 64 18 66 16 70C14 74 17 76 22 74C27 72 29 68 28 66"
                   fill="white"
                 />
                 <path
-                  d="M32 80L27 85C22 90 17 95 14 102C12 107 17 110 24 107C30 104 34 98 37 92L40 85L32 80Z"
+                  d="M33 78C28 76 23 78 21 82C19 86 22 88 27 86C32 84 34 80 33 78"
+                  fill="white"
+                />
+
+                {/* Top fronds - pointed tips */}
+                <path
+                  d="M42 22L45 18L48 22C47 24 45 25 43 24C41 23 41 22 42 22"
+                  fill="white"
+                />
+                <path
+                  d="M38 26L41 22L44 26C43 28 41 29 39 28C37 27 37 26 38 26"
+                  fill="white"
+                />
+                <path
+                  d="M35 30L38 26L41 30C40 32 38 33 36 32C34 31 34 30 35 30"
+                  fill="white"
+                />
+                <path
+                  d="M46 26L49 22L52 26C51 28 49 29 47 28C45 27 45 26 46 26"
+                  fill="white"
+                />
+                <path
+                  d="M50 30L53 26L56 30C55 32 53 33 51 32C49 31 49 30 50 30"
                   fill="white"
                 />
               </svg>
