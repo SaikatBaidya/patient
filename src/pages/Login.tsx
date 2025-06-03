@@ -41,53 +41,85 @@ const Login = () => {
           <div className="flex justify-center mb-6">
             <div className="w-16 h-16 bg-teal-700 rounded-full flex items-center justify-center">
               <svg
-                viewBox="0 0 24 24"
+                viewBox="0 0 100 100"
                 className="w-10 h-10"
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 {/* Main koru spiral */}
                 <path
-                  d="M12 4C7.5 4 4 7.5 4 12C4 16.5 7.5 20 12 20C15.3 20 18 17.3 18 14C18 11.8 16.7 10 15 10C13.9 10 13 10.9 13 12C13 12.6 13.4 13 14 13C14.3 13 14.5 12.8 14.5 12.5"
+                  d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C65 85 78 72 78 57C78 47 71 40 62 40C56 40 52 44 52 50C52 54 54 57 57 57C59 57 60 56 60 54"
                   fill="none"
                   stroke="white"
-                  strokeWidth="1"
+                  strokeWidth="3.5"
                   strokeLinecap="round"
                 />
 
-                {/* Fern fronds */}
-                <path
-                  d="M7 7.5C6 7 5 7.3 4.8 8C4.6 8.7 5.2 9 6 8.8C6.8 8.6 7.2 8 7 7.5Z"
+                {/* Fern fronds - main fronds */}
+                <ellipse
+                  cx="28"
+                  cy="32"
+                  rx="8"
+                  ry="4"
+                  transform="rotate(-30 28 32)"
                   fill="white"
                 />
-                <path
-                  d="M6 10C5 9.5 4 9.8 3.8 10.5C3.6 11.2 4.2 11.5 5 11.3C5.8 11.1 6.2 10.5 6 10Z"
+                <ellipse
+                  cx="22"
+                  cy="45"
+                  rx="9"
+                  ry="4"
+                  transform="rotate(-25 22 45)"
                   fill="white"
                 />
-                <path
-                  d="M5.5 12.5C4.5 12 3.5 12.3 3.3 13C3.1 13.7 3.7 14 4.5 13.8C5.3 13.6 5.7 13 5.5 12.5Z"
+                <ellipse
+                  cx="20"
+                  cy="58"
+                  rx="10"
+                  ry="4"
+                  transform="rotate(-20 20 58)"
                   fill="white"
                 />
-                <path
-                  d="M6.5 15C5.5 14.5 4.5 14.8 4.3 15.5C4.1 16.2 4.7 16.5 5.5 16.3C6.3 16.1 6.7 15.5 6.5 15Z"
-                  fill="white"
-                />
-                <path
-                  d="M8 17C7 16.5 6 16.8 5.8 17.5C5.6 18.2 6.2 18.5 7 18.3C7.8 18.1 8.2 17.5 8 17Z"
+                <ellipse
+                  cx="26"
+                  cy="71"
+                  rx="9"
+                  ry="4"
+                  transform="rotate(-15 26 71)"
                   fill="white"
                 />
 
-                {/* Small accent fronds */}
-                <path
-                  d="M8.5 6C7.8 5.7 7.2 5.9 7.1 6.3C7 6.7 7.4 6.9 7.8 6.8C8.2 6.7 8.4 6.3 8.5 6Z"
+                {/* Smaller accent fronds */}
+                <ellipse
+                  cx="35"
+                  cy="25"
+                  rx="5"
+                  ry="2.5"
+                  transform="rotate(-35 35 25)"
                   fill="white"
                 />
-                <path
-                  d="M5 8.5C4.3 8.2 3.7 8.4 3.6 8.8C3.5 9.2 3.9 9.4 4.3 9.3C4.7 9.2 4.9 8.8 5 8.5Z"
+                <ellipse
+                  cx="16"
+                  cy="38"
+                  rx="6"
+                  ry="2.5"
+                  transform="rotate(-30 16 38)"
                   fill="white"
                 />
-                <path
-                  d="M4.5 11C3.8 10.7 3.2 10.9 3.1 11.3C3 11.7 3.4 11.9 3.8 11.8C4.2 11.7 4.4 11.3 4.5 11Z"
+                <ellipse
+                  cx="14"
+                  cy="52"
+                  rx="6"
+                  ry="2.5"
+                  transform="rotate(-25 14 52)"
+                  fill="white"
+                />
+                <ellipse
+                  cx="18"
+                  cy="65"
+                  rx="5"
+                  ry="2.5"
+                  transform="rotate(-20 18 65)"
                   fill="white"
                 />
               </svg>
