@@ -80,18 +80,26 @@ const SimulationResults = () => {
         <Card className="p-4 mb-6">
           <div className="h-48 w-full">
             <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={chartData}>
+              <LineChart
+                data={chartData}
+                margin={{ top: 5, right: 5, left: 5, bottom: 5 }}
+              >
                 <XAxis
                   dataKey="time"
+                  type="category"
                   axisLine={false}
                   tickLine={false}
                   tick={{ fontSize: 12, fill: "#6B7280" }}
+                  interval="preserveStartEnd"
+                  height={60}
                 />
                 <YAxis
+                  type="number"
                   domain={[6, 9]}
                   axisLine={false}
                   tickLine={false}
                   tick={{ fontSize: 12, fill: "#6B7280" }}
+                  width={60}
                 />
                 <Line
                   type="monotone"
@@ -100,6 +108,7 @@ const SimulationResults = () => {
                   strokeWidth={2}
                   strokeDasharray="5 5"
                   dot={false}
+                  activeDot={false}
                 />
                 <Line
                   type="monotone"
@@ -107,6 +116,7 @@ const SimulationResults = () => {
                   stroke="#0F766E"
                   strokeWidth={3}
                   dot={false}
+                  activeDot={{ r: 4, fill: "#0F766E" }}
                 />
               </LineChart>
             </ResponsiveContainer>
