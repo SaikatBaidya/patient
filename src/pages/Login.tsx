@@ -46,44 +46,80 @@ const Login = () => {
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                {/* Main koru spiral body */}
+                {/* Main koru spiral */}
                 <path
-                  d="M50 20C33 20 20 33 20 50C20 67 33 80 50 80C62 80 72 70 72 58C72 50 66 44 58 44C53 44 49 48 49 53C49 56 51 58 53 58C54.5 58 55.5 57 55.5 55.5C55.5 54.8 55.2 54.3 54.8 54.3"
+                  d="M50 18C32 18 18 32 18 50C18 68 32 82 50 82C63 82 74 71 74 58C74 49 68 42 60 42C55 42 51 46 51 51C51 54 53 56 55 56C56.5 56 57.5 55 57.5 53.5"
                   fill="none"
                   stroke="white"
-                  strokeWidth="3.5"
+                  strokeWidth="4"
                   strokeLinecap="round"
                 />
 
-                {/* Fern fronds extending from the spiral */}
-                <path
-                  d="M32 30L28 28C24 26 20 28 19 32C18 36 21 37 25 36L29 34C31 33 33 31 32 30Z"
+                {/* Simple fern fronds */}
+                <ellipse
+                  cx="30"
+                  cy="32"
+                  rx="7"
+                  ry="3"
+                  transform="rotate(-25 30 32)"
                   fill="white"
                 />
-                <path
-                  d="M27 42L23 40C19 38 15 40 14 44C13 48 16 49 20 48L24 46C26 45 28 43 27 42Z"
+                <ellipse
+                  cx="25"
+                  cy="44"
+                  rx="8"
+                  ry="3"
+                  transform="rotate(-20 25 44)"
                   fill="white"
                 />
-                <path
-                  d="M25 54L21 52C17 50 13 52 12 56C11 60 14 61 18 60L22 58C24 57 26 55 25 54Z"
+                <ellipse
+                  cx="23"
+                  cy="56"
+                  rx="9"
+                  ry="3"
+                  transform="rotate(-15 23 56)"
                   fill="white"
                 />
-                <path
-                  d="M29 66L25 64C21 62 17 64 16 68C15 72 18 73 22 72L26 70C28 69 30 67 29 66Z"
+                <ellipse
+                  cx="27"
+                  cy="68"
+                  rx="8"
+                  ry="3"
+                  transform="rotate(-10 27 68)"
                   fill="white"
                 />
 
-                {/* Smaller fronds */}
-                <path
-                  d="M36 25L33 24C31 23 29 24 28.5 26C28 28 29.5 28.5 31.5 28L34.5 27C35.5 26.5 36.5 25.5 36 25Z"
+                {/* Small accent fronds */}
+                <ellipse
+                  cx="35"
+                  cy="26"
+                  rx="4"
+                  ry="2"
+                  transform="rotate(-30 35 26)"
                   fill="white"
                 />
-                <path
-                  d="M21 36L18 35C16 34 14 35 13.5 37C13 39 14.5 39.5 16.5 39L19.5 38C20.5 37.5 21.5 36.5 21 36Z"
+                <ellipse
+                  cx="20"
+                  cy="38"
+                  rx="5"
+                  ry="2"
+                  transform="rotate(-25 20 38)"
                   fill="white"
                 />
-                <path
-                  d="M19 48L16 47C14 46 12 47 11.5 49C11 51 12.5 51.5 14.5 51L17.5 50C18.5 49.5 19.5 48.5 19 48Z"
+                <ellipse
+                  cx="18"
+                  cy="50"
+                  rx="5"
+                  ry="2"
+                  transform="rotate(-20 18 50)"
+                  fill="white"
+                />
+                <ellipse
+                  cx="22"
+                  cy="62"
+                  rx="4"
+                  ry="2"
+                  transform="rotate(-15 22 62)"
                   fill="white"
                 />
               </svg>
