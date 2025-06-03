@@ -5,9 +5,9 @@ import { Card } from "@/components/ui/card";
 
 const languages = [
   { code: "en", name: "English", flag: "🇬🇧" },
-  { code: "zh", name: "中文 (中国)", flag: "🇨🇳" },
-  { code: "hi", name: "हिन्दी (भारत)", flag: "🇮🇳" },
-  { code: "fr", name: "Français (France)", flag: "🇫🇷" },
+  { code: "mi", name: "Te Reo Māori", flag: "🇳🇿" },
+  { code: "sm", name: "Gagana Samoa", flag: "🇼🇸" },
+  { code: "to", name: "Lea Faka-Tonga", flag: "🇹🇴" },
 ];
 
 const LanguageSelection = () => {
