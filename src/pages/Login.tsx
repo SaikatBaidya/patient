@@ -48,48 +48,42 @@ const Login = () => {
               >
                 {/* Main koru spiral */}
                 <path
-                  d="M50 18C32 18 18 32 18 50C18 68 32 82 50 82C63 82 74 71 74 58C74 49 68 42 60 42C55 42 51 46 51 51C51 54 53 56 55 56C56.5 56 57.5 55 57.5 53.5C57.5 52.8 57.2 52.3 56.8 52.3"
+                  d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C65 85 78 72 78 57C78 47 71 40 62 40C56 40 52 44 52 50C52 54 54 57 57 57C59 57 60 56 60 54C60 53 59.5 52.5 59 52.5"
                   fill="none"
                   stroke="white"
-                  strokeWidth="3.5"
+                  strokeWidth="4"
                   strokeLinecap="round"
                 />
 
-                {/* Main stem */}
+                {/* Fern fronds extending from left side */}
                 <path
-                  d="M50 18L48 75"
-                  stroke="white"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                />
-
-                {/* Fern fronds - upper */}
-                <path
-                  d="M48 25C45 23 42 24 40 26C38 28 39 30 41 29C43 28 45 27 48 25Z"
+                  d="M30 30C25 25 20 26 18 30C16 34 18 36 22 35C26 34 28 32 30 30Z"
                   fill="white"
                 />
                 <path
-                  d="M48 32C44 30 40 31 37 34C35 36 36 38 39 37C42 36 45 34 48 32Z"
-                  fill="white"
-                />
-
-                {/* Fern fronds - middle */}
-                <path
-                  d="M48 40C43 38 38 39 34 43C31 46 33 48 37 47C41 46 45 42 48 40Z"
+                  d="M25 40C20 35 15 36 13 40C11 44 13 46 17 45C21 44 23 42 25 40Z"
                   fill="white"
                 />
                 <path
-                  d="M48 48C42 46 36 47 31 52C28 55 30 57 35 56C40 55 44 50 48 48Z"
+                  d="M22 50C17 45 12 46 10 50C8 54 10 56 14 55C18 54 20 52 22 50Z"
+                  fill="white"
+                />
+                <path
+                  d="M25 60C20 55 15 56 13 60C11 64 13 66 17 65C21 64 23 62 25 60Z"
+                  fill="white"
+                />
+                <path
+                  d="M30 70C25 65 20 66 18 70C16 74 18 76 22 75C26 74 28 72 30 70Z"
                   fill="white"
                 />
 
-                {/* Fern fronds - lower */}
+                {/* Small accent fronds */}
                 <path
-                  d="M48 56C41 54 34 55 28 61C24 65 27 67 33 66C39 65 44 58 48 56Z"
+                  d="M35 25C32 22 29 23 28 25C27 27 28 28 30 28C32 27 34 26 35 25Z"
                   fill="white"
                 />
                 <path
-                  d="M48 64C40 62 32 63 25 70C21 74 24 76 31 75C38 74 43 66 48 64Z"
+                  d="M20 35C17 32 14 33 13 35C12 37 13 38 15 38C17 37 19 36 20 35Z"
                   fill="white"
                 />
               </svg>
