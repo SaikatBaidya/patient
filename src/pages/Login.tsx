@@ -46,38 +46,28 @@ const Login = () => {
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                {/* Main koru spiral */}
+                {/* Main koru spiral body */}
                 <path
-                  d="M50 20C35 20 25 35 25 50C25 65 35 75 50 75C60 75 68 67 68 57C68 52 65 48 60 48C57 48 55 50 55 53C55 54.5 56 55.5 57 55.5C57.5 55.5 58 55 58 54.5"
+                  d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C65 85 78 72 78 57C78 47 71 40 62 40C56 40 52 44 52 50C52 54 54 57 57 57C59 57 60 56 60 54C60 53 59.5 52.5 59 52.5"
                   fill="none"
                   stroke="white"
-                  strokeWidth="3"
+                  strokeWidth="4"
                   strokeLinecap="round"
                 />
 
-                {/* Fern fronds */}
-                <path
-                  d="M35 45C35 45 40 40 45 42C47 43 46 45 44 46C42 47 40 46 40 44"
-                  fill="white"
-                />
-                <path
-                  d="M32 55C32 55 37 50 42 52C44 53 43 55 41 56C39 57 37 56 37 54"
-                  fill="white"
-                />
-                <path
-                  d="M35 65C35 65 40 60 45 62C47 63 46 65 44 66C42 67 40 66 40 64"
-                  fill="white"
-                />
+                {/* Fern fronds extending from the spiral */}
+                <path d="M25 40L35 35L32 42L28 45Z" fill="white" />
+                <path d="M20 55L30 50L27 57L23 60Z" fill="white" />
+                <path d="M25 70L35 65L32 72L28 75Z" fill="white" />
 
-                {/* Additional small fronds */}
-                <path
-                  d="M28 50C28 50 32 46 36 47C37.5 47.5 37 49 35.5 49.5C34 50 32.5 49.5 32.5 48"
-                  fill="white"
-                />
-                <path
-                  d="M30 60C30 60 34 56 38 57C39.5 57.5 39 59 37.5 59.5C36 60 34.5 59.5 34.5 58"
-                  fill="white"
-                />
+                {/* Smaller fronds */}
+                <path d="M30 30L38 27L36 32L32 34Z" fill="white" />
+                <path d="M18 45L26 42L24 47L20 49Z" fill="white" />
+                <path d="M18 65L26 62L24 67L20 69Z" fill="white" />
+
+                {/* Top fronds */}
+                <path d="M40 20L48 18L46 24L42 26Z" fill="white" />
+                <path d="M35 25L42 23L40 28L37 30Z" fill="white" />
               </svg>
             </div>
           </div>
