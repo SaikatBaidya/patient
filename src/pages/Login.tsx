@@ -46,52 +46,34 @@ const Login = () => {
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                {/* Main koru spiral - the flowing spiral curve */}
+                {/* Main koru spiral */}
                 <path
-                  d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C65 85 78 72 78 57C78 47 71 40 62 40C56 40 52 44 52 50C52 54 54 57 57 57C59 57 60 56 60 54C60 53.2 59.6 52.6 59 52.6"
+                  d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C65 85 78 72 78 57C78 47 71 40 62 40C56 40 52 44 52 50C52 54 54 57 57 57C59 57 60 56 60 54"
                   fill="none"
                   stroke="white"
-                  strokeWidth="3.5"
+                  strokeWidth="4"
                   strokeLinecap="round"
                 />
 
-                {/* Fern fronds - curved flowing from the spiral */}
+                {/* Fern fronds - flowing from the spiral */}
                 <path
-                  d="M30 28C25 25 20 27 18 32C16 37 20 39 25 37C30 35 32 30 30 28Z"
+                  d="M30 32C26 30 22 32 20 36C18 40 21 42 25 40C29 38 31 34 30 32"
                   fill="white"
                 />
                 <path
-                  d="M25 40C20 37 15 39 13 44C11 49 15 51 20 49C25 47 27 42 25 40Z"
+                  d="M25 44C21 42 17 44 15 48C13 52 16 54 20 52C24 50 26 46 25 44"
                   fill="white"
                 />
                 <path
-                  d="M23 52C18 49 13 51 11 56C9 61 13 63 18 61C23 59 25 54 23 52Z"
+                  d="M23 56C19 54 15 56 13 60C11 64 14 66 18 64C22 62 24 58 23 56"
                   fill="white"
                 />
                 <path
-                  d="M27 64C22 61 17 63 15 68C13 73 17 75 22 73C27 71 29 66 27 64Z"
+                  d="M27 68C23 66 19 68 17 72C15 76 18 78 22 76C26 74 28 70 27 68"
                   fill="white"
                 />
                 <path
-                  d="M32 76C27 73 22 75 20 80C18 85 22 87 27 85C32 83 34 78 32 76Z"
-                  fill="white"
-                />
-
-                {/* Smaller accent fronds */}
-                <path
-                  d="M35 23C32 22 29 23 28 25C27 27 29 28 32 27C35 26 36 24 35 23Z"
-                  fill="white"
-                />
-                <path
-                  d="M20 34C17 33 14 34 13 36C12 38 14 39 17 38C20 37 21 35 20 34Z"
-                  fill="white"
-                />
-                <path
-                  d="M18 46C15 45 12 46 11 48C10 50 12 51 15 50C18 49 19 47 18 46Z"
-                  fill="white"
-                />
-                <path
-                  d="M22 58C19 57 16 58 15 60C14 62 16 63 19 62C22 61 23 59 22 58Z"
+                  d="M32 80C28 78 24 80 22 84C20 88 23 90 27 88C31 86 33 82 32 80"
                   fill="white"
                 />
               </svg>
